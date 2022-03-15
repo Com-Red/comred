@@ -1,6 +1,31 @@
+<<<<<<< HEAD
 #div{
     background-color: aquamarine;
     width: 400px;
     height: 400px;
     text-align: center;
+=======
+.div{
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    border-radius: 45px;
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1646753471471-b7685ec6c7cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+}
+#main p{
+    color: aqua;
+}
+input:invalid{
+    border: 2px solid red;
+}
+input:valid{
+    border: 2px solid blue;
+}
+p{
+    text-align: center;
+}
+html{
+    background-image: url(https://images.unsplash.com/photo-1531736275454-adc48d079ce9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+>>>>>>> f4fb0df448b266d5b43b331ee91666c55a5b757a
 }
