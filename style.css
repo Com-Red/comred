@@ -1,13 +1,63 @@
 .div{
-    width: 400px;
     height: 400px;
-    background-color: aquamarine;
     border-radius: 45px;
-    text-align: center;
-    background-image: url(https://images.unsplash.com/photo-1646753471471-b7685ec6c7cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    font-size: 45px;
+    padding: 20px;
+    background-image: url(https://media.istockphoto.com/photos/digital-eye-wave-lines-stock-background-stock-video-picture-id1226241649);
+    box-shadow: 5px 5px 10px 1px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div2{
+    width: 300px;
+    height: 100px;
+    margin-top: 10px;
+    background-color:blanchedalmond;
+    border: 1px solid black;
+    float: left;
+}
+.div3{
+    width: 680px;
+    height: 100px;
+    margin-top: 10px;
+    background-image:-webkit-linear-gradient(top,white,blue,red);
+    border: 1px solid red;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-left: 310px;
+}
+.div4{
+    clear: both;
+    background-color: aliceblue;
+    margin-top: 10px;
+}
+details > summary{
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    padding: 5px;
+    border: 1px solid black;
+    list-style: none;
+}
+details[open] > summary{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+details > div{
+    border: 1px black;
+    padding: 10px;
+}
+summary:before{
+    content: "+";
+    margin: -5px 5px;
+}
+details[open] summary:before{
+    content: "-";
 }
 #main p{
-    color: aqua;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 25px black;
 }
 input:invalid{
     border: 2px solid red;
@@ -16,8 +66,23 @@ input:valid{
     border: 2px solid blue;
 }
 p{
-    text-align: center;
+    color: aliceblue;
 }
 html{
-    background-image: url(https://images.unsplash.com/photo-1531736275454-adc48d079ce9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    background-image: -webkit-linear-gradient(top, rgb(199, 228, 255), rgb(255, 255, 255));
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    caption-side: bottom;
+    table-layout: fixed;
+    width: 300px;
+    height: 300px;
+}
+td{
+    border: solid 1px black;
+    vertical-align: middle;
 }
